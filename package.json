@@ -1,0 +1,25 @@
+{
+  "name": "pbin-guest",
+  "version": "0.0.2",
+  "description": "Paste your text or code to pastebin.com from guest user",
+  "scripts": {
+    "test": "npm run compile && node test.js",
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/"
+  },
+  "keywords": [
+    "paste",
+    "pastebin"
+  ],
+  "author": "Igor Tkachenko",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "dependencies": {
+    "request": "^2.78.0",
+    "valid-url": "^1.0.9"
+  },
+  "main": "test.js"
+}
