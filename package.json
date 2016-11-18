@@ -1,6 +1,6 @@
 {
   "name": "pbin-guest",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "Paste your text or code to pastebin.com from guest user",
   "scripts": {
     "test": "npm run compile && node test.js",
@@ -10,6 +10,7 @@
     "paste",
     "pastebin"
   ],
+  "main": "lib/pbin.js",
   "author": "Igor Tkachenko",
   "license": "MIT",
   "devDependencies": {
@@ -21,5 +22,12 @@
     "request": "^2.78.0",
     "valid-url": "^1.0.9"
   },
-  "main": "test.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foozzi/pbin-guest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/foozzi/pbin-guest/issues"
+  },
+  "homepage": "https://github.com/foozzi/pbin-guest#readme"
 }
