@@ -25,12 +25,12 @@ export function paste(params, api_key, cb) {
 	}, 
 	function optionalCallback(err, httpResponse, body) {
 	  	if (err) {
-	  		return cb({link:null, err});
+	  		return cb(null, err);
 	  	}
 	  	if (url_validator.isUri(body)){
-	        return cb({link:body, err:null});
+	        return cb(body, null);
 	    } else {
-	        return cb({link:null, err:body});
+	        return cb(null, body);
 	    }
 	});
 }

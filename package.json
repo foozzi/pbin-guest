@@ -1,6 +1,6 @@
 {
   "name": "pbin-guest",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Paste your text or code to pastebin.com from guest user",
   "scripts": {
     "test": "npm run compile && node test.js",
